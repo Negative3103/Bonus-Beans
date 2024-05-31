@@ -29,7 +29,7 @@ final class MainView: CustomView {
             searchTextField = searchBar.searchTextField
         } else {
             searchTextField = searchController.searchBar.value(forKey: "_searchField") as! UITextField
-            UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.appColor(.black)]
         }
         
         searchTextField.textColor = .white

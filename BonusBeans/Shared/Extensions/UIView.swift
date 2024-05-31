@@ -201,6 +201,13 @@ extension UIView {
         layer.addSublayer(dashedBorder)
     }
     
+    func setupShadow() {
+        layer.cornerCurve = .continuous
+        layer.shadowColor = UIColor.appColor(.black).cgColor
+        layer.shadowRadius = 4
+        layer.shadowOffset = CGSize(width: 0, height: 0)
+        layer.shadowOpacity = 0.08
+    }
 }
 
 extension UIView: ReusableView { }

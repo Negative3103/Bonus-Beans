@@ -17,7 +17,11 @@ final class ProfileCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let vc = ProfileViewController()
+        vc.tabBarItem = UITabBarItem(title: "Кабинет", image: UIImage.appImage(.profile), tag: 3)
+        vc.tabBarItem.setImageOnly()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
     }
     
 }

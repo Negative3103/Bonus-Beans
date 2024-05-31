@@ -59,6 +59,7 @@ import UIKit
         if #available(iOS 12.0, *) {
             textContentType = .oneTimeCode
         }
+        textColor = .appColor(.black)
     }
     
     //MARK: - Other funcs

@@ -18,6 +18,7 @@ final class ConfirmCodeViewController: UIViewController, AlertViewController, Vi
         didSet {
             guard let number = number else { return }
             view().numberLabel.text = "Код был отправлен на +\(number)"
+            UserDefaults.standard.setValue(number, forKey: "phone")
         }
     }
     

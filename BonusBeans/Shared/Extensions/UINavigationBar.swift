@@ -12,9 +12,9 @@ extension UINavigationBar {
         tintColor = .appColor(.black)
         titleTextAttributes = [.foregroundColor: UIColor.appColor(.black)]
         largeTitleTextAttributes = [.foregroundColor: UIColor.appColor(.black)]
-        UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .normal)
-        UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .highlighted)
-        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).setTitleTextAttributes([.foregroundColor: UIColor.white], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.appColor(.black)], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.appColor(.black)], for: .highlighted)
+        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).setTitleTextAttributes([.foregroundColor: UIColor.appColor(.black)], for: .normal)
         
         let backButton = BackBarButtonItem()
         backButton.title = ""

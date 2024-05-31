@@ -1,5 +1,5 @@
 //
-//  KafeTableViewCell.swift
+//  ReviewCollectionViewCell.swift
 //  BonusBeans
 //
 //  Created by Хасан Давронбеков on 31/05/24.
@@ -7,34 +7,34 @@
 
 import UIKit
 
-final class KafeTableViewCell: CustomTableViewCell {
+final class ReviewCollectionViewCell: CustomCollectionViewCell {
     
     //MARK: - Outlets
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var rateLabel: UILabel!
-    @IBOutlet weak var pointsLabel: UILabel!
-    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     
     //MARK: - Attributes
-    internal var item: KafeModel? {
+    internal var item: ReviewModel? {
         didSet {
             guard let item = item else { return }
             
             if let name = item.name {
-                nameLabel.text = name
+                titleLabel.text = name
             }
             
             if let address = item.address {
                 addressLabel.text = address
             }
             
-            if let rate = item.rate {
-                rateLabel.text = "Рейтинг: " + String(rate)
+            if let time = item.time {
+                timeLabel.text = time
             }
             
-            if let points = item.points {
-                pointsLabel.text = String(points) + " оценок"
+            if let distance = item.distance {
+                locationLabel.text = distance > 10 ? String(distance) + "м" : String(distance) + "км"
             }
         }
     }
@@ -42,6 +42,6 @@ final class KafeTableViewCell: CustomTableViewCell {
     //MARK: - Lifecycles
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.contentView.setupShadow()
+        imageView.layer.cornerRadius = 10
     }
 }
