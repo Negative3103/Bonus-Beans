@@ -10,6 +10,36 @@
 		D106F6DE2C0989E300756905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F6DD2C0989E300756905 /* AppDelegate.swift */; };
 		D106F6E72C0989E500756905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D106F6E62C0989E400756905 /* Assets.xcassets */; };
 		D106F6EA2C0989E500756905 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D106F6E92C0989E500756905 /* Base */; };
+		D106F6FA2C098B2600756905 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F6F92C098B2600756905 /* TabBarController.swift */; };
+		D106F6FC2C098B4900756905 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F6FB2C098B4900756905 /* MainCoordinator.swift */; };
+		D106F6FE2C098B5A00756905 /* ReviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F6FD2C098B5A00756905 /* ReviewCoordinator.swift */; };
+		D106F7002C098B6000756905 /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F6FF2C098B6000756905 /* MapCoordinator.swift */; };
+		D106F7022C098B6600756905 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7012C098B6600756905 /* ProfileCoordinator.swift */; };
+		D106F7052C098B8800756905 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7042C098B8800756905 /* Coordinator.swift */; };
+		D106F70A2C098C8800756905 /* Haptica in Frameworks */ = {isa = PBXBuildFile; productRef = D106F7092C098C8800756905 /* Haptica */; };
+		D106F70C2C098CD300756905 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F70B2C098CD300756905 /* UIColor.swift */; };
+		D106F70E2C098CDB00756905 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F70D2C098CDB00756905 /* UIImage.swift */; };
+		D106F7112C098CEE00756905 /* AssetsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7102C098CEE00756905 /* AssetsImage.swift */; };
+		D106F7132C098CF300756905 /* AssetsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7122C098CF300756905 /* AssetsColor.swift */; };
+		D106F7152C098E8100756905 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7142C098E8100756905 /* LaunchScreenViewController.swift */; };
+		D106F7192C098E9F00756905 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7182C098E9F00756905 /* LaunchScreenView.swift */; };
+		D106F71B2C098EA300756905 /* LaunchScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D106F71A2C098EA300756905 /* LaunchScreenView.xib */; };
+		D106F71D2C098EFA00756905 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F71C2C098EFA00756905 /* CustomView.swift */; };
+		D106F71F2C098F5500756905 /* ViewSpecificController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F71E2C098F5500756905 /* ViewSpecificController.swift */; };
+		D106F7212C098F6D00756905 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7202C098F6D00756905 /* UIView.swift */; };
+		D106F7232C098FAB00756905 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7222C098FAB00756905 /* ReusableView.swift */; };
+		D106F7252C09904400756905 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7242C09904400756905 /* UINavigationBar.swift */; };
+		D106F7272C09908E00756905 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7262C09908E00756905 /* UIViewController.swift */; };
+		D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7282C0992E400756905 /* UITabBarItem.swift */; };
+		D106F72C2C09930200756905 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D106F72B2C09930200756905 /* SDWebImage */; };
+		D106F72E2C09933A00756905 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F72D2C09933A00756905 /* UIImageView.swift */; };
+		D106F7302C09936600756905 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F72F2C09936600756905 /* HighlightButton.swift */; };
+		D106F7332C0993E700756905 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = D106F7322C0993E700756905 /* SwiftMessages */; };
+		D106F7352C0993F000756905 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7342C0993F000756905 /* AlertViewController.swift */; };
+		D106F7372C09948F00756905 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F7362C09948F00756905 /* String.swift */; };
+		D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */; };
+		D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73E2C0998B900756905 /* ConfirmCodeView.swift */; };
+		D106F7412C0998BD00756905 /* ConfirmCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D106F7402C0998BD00756905 /* ConfirmCodeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +48,33 @@
 		D106F6E62C0989E400756905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D106F6E92C0989E500756905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D106F6EB2C0989E500756905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D106F6F92C098B2600756905 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D106F6FB2C098B4900756905 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D106F6FD2C098B5A00756905 /* ReviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCoordinator.swift; sourceTree = "<group>"; };
+		D106F6FF2C098B6000756905 /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
+		D106F7012C098B6600756905 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		D106F7042C098B8800756905 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D106F70B2C098CD300756905 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D106F70D2C098CDB00756905 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		D106F7102C098CEE00756905 /* AssetsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImage.swift; sourceTree = "<group>"; };
+		D106F7122C098CF300756905 /* AssetsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsColor.swift; sourceTree = "<group>"; };
+		D106F7142C098E8100756905 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		D106F7182C098E9F00756905 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		D106F71A2C098EA300756905 /* LaunchScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreenView.xib; sourceTree = "<group>"; };
+		D106F71C2C098EFA00756905 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D106F71E2C098F5500756905 /* ViewSpecificController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSpecificController.swift; sourceTree = "<group>"; };
+		D106F7202C098F6D00756905 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D106F7222C098FAB00756905 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		D106F7242C09904400756905 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		D106F7262C09908E00756905 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D106F7282C0992E400756905 /* UITabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarItem.swift; sourceTree = "<group>"; };
+		D106F72D2C09933A00756905 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		D106F72F2C09936600756905 /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		D106F7342C0993F000756905 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		D106F7362C09948F00756905 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeViewController.swift; sourceTree = "<group>"; };
+		D106F73E2C0998B900756905 /* ConfirmCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeView.swift; sourceTree = "<group>"; };
+		D106F7402C0998BD00756905 /* ConfirmCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmCodeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D106F72C2C09930200756905 /* SDWebImage in Frameworks */,
+				D106F7332C0993E700756905 /* SwiftMessages in Frameworks */,
+				D106F70A2C098C8800756905 /* Haptica in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,10 +112,11 @@
 			children = (
 				D106F6F22C098A7100756905 /* Shared */,
 				D106F6F32C098A7800756905 /* Launcsh Screen */,
-				D106F6F72C098AAB00756905 /* Profile */,
-				D106F6F62C098AA500756905 /* Map */,
-				D106F6F52C098A9A00756905 /* Review */,
+				D106F6F82C098B1100756905 /* TabBar */,
 				D106F6F42C098A8100756905 /* Main */,
+				D106F6F52C098A9A00756905 /* Review */,
+				D106F6F62C098AA500756905 /* Map */,
+				D106F6F72C098AAB00756905 /* Profile */,
 				D106F6F12C098A4000756905 /* Resources */,
 			);
 			path = BonusBeans;
@@ -75,6 +136,10 @@
 		D106F6F22C098A7100756905 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D106F70F2C098CDF00756905 /* Constants */,
+				D106F7072C098C6700756905 /* Protocols */,
+				D106F7062C098C6100756905 /* Extensions */,
+				D106F7032C098B8100756905 /* Classes */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -82,6 +147,8 @@
 		D106F6F32C098A7800756905 /* Launcsh Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D106F7382C09989100756905 /* Launch Screen */,
+				D106F7392C09989700756905 /* Confirm Code */,
 			);
 			path = "Launcsh Screen";
 			sourceTree = "<group>";
@@ -89,6 +156,7 @@
 		D106F6F42C098A8100756905 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D106F6FB2C098B4900756905 /* MainCoordinator.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -96,6 +164,7 @@
 		D106F6F52C098A9A00756905 /* Review */ = {
 			isa = PBXGroup;
 			children = (
+				D106F6FD2C098B5A00756905 /* ReviewCoordinator.swift */,
 			);
 			path = Review;
 			sourceTree = "<group>";
@@ -103,6 +172,7 @@
 		D106F6F62C098AA500756905 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				D106F6FF2C098B6000756905 /* MapCoordinator.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -110,8 +180,113 @@
 		D106F6F72C098AAB00756905 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D106F7012C098B6600756905 /* ProfileCoordinator.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		D106F6F82C098B1100756905 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D106F6F92C098B2600756905 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D106F7032C098B8100756905 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D106F7042C098B8800756905 /* Coordinator.swift */,
+				D106F71C2C098EFA00756905 /* CustomView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D106F7062C098C6100756905 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D106F70B2C098CD300756905 /* UIColor.swift */,
+				D106F70D2C098CDB00756905 /* UIImage.swift */,
+				D106F7202C098F6D00756905 /* UIView.swift */,
+				D106F7242C09904400756905 /* UINavigationBar.swift */,
+				D106F7262C09908E00756905 /* UIViewController.swift */,
+				D106F7282C0992E400756905 /* UITabBarItem.swift */,
+				D106F72D2C09933A00756905 /* UIImageView.swift */,
+				D106F72F2C09936600756905 /* HighlightButton.swift */,
+				D106F7362C09948F00756905 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D106F7072C098C6700756905 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D106F71E2C098F5500756905 /* ViewSpecificController.swift */,
+				D106F7222C098FAB00756905 /* ReusableView.swift */,
+				D106F7342C0993F000756905 /* AlertViewController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D106F70F2C098CDF00756905 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D106F7102C098CEE00756905 /* AssetsImage.swift */,
+				D106F7122C098CF300756905 /* AssetsColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D106F7162C098E8400756905 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D106F7142C098E8100756905 /* LaunchScreenViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D106F7172C098E8C00756905 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D106F7182C098E9F00756905 /* LaunchScreenView.swift */,
+				D106F71A2C098EA300756905 /* LaunchScreenView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D106F7382C09989100756905 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D106F7162C098E8400756905 /* View Controller */,
+				D106F7172C098E8C00756905 /* View */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		D106F7392C09989700756905 /* Confirm Code */ = {
+			isa = PBXGroup;
+			children = (
+				D106F73B2C0998A800756905 /* View Controller */,
+				D106F73A2C0998A500756905 /* View */,
+			);
+			path = "Confirm Code";
+			sourceTree = "<group>";
+		};
+		D106F73A2C0998A500756905 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D106F73E2C0998B900756905 /* ConfirmCodeView.swift */,
+				D106F7402C0998BD00756905 /* ConfirmCodeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D106F73B2C0998A800756905 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +305,11 @@
 			dependencies = (
 			);
 			name = BonusBeans;
+			packageProductDependencies = (
+				D106F7092C098C8800756905 /* Haptica */,
+				D106F72B2C09930200756905 /* SDWebImage */,
+				D106F7322C0993E700756905 /* SwiftMessages */,
+			);
 			productName = BonusBeans;
 			productReference = D106F6DA2C0989E300756905 /* BonusBeans.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +338,11 @@
 				Base,
 			);
 			mainGroup = D106F6D12C0989E300756905;
+			packageReferences = (
+				D106F7082C098C8800756905 /* XCRemoteSwiftPackageReference "Haptica" */,
+				D106F72A2C09930200756905 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				D106F7312C0993E700756905 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+			);
 			productRefGroup = D106F6DB2C0989E300756905 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,7 +357,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D106F7412C0998BD00756905 /* ConfirmCodeView.xib in Resources */,
 				D106F6E72C0989E500756905 /* Assets.xcassets in Resources */,
+				D106F71B2C098EA300756905 /* LaunchScreenView.xib in Resources */,
 				D106F6EA2C0989E500756905 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +371,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D106F7212C098F6D00756905 /* UIView.swift in Sources */,
+				D106F7232C098FAB00756905 /* ReusableView.swift in Sources */,
+				D106F6FE2C098B5A00756905 /* ReviewCoordinator.swift in Sources */,
+				D106F7272C09908E00756905 /* UIViewController.swift in Sources */,
+				D106F7192C098E9F00756905 /* LaunchScreenView.swift in Sources */,
+				D106F6FC2C098B4900756905 /* MainCoordinator.swift in Sources */,
+				D106F7372C09948F00756905 /* String.swift in Sources */,
+				D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */,
+				D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */,
+				D106F71D2C098EFA00756905 /* CustomView.swift in Sources */,
 				D106F6DE2C0989E300756905 /* AppDelegate.swift in Sources */,
+				D106F7132C098CF300756905 /* AssetsColor.swift in Sources */,
+				D106F7002C098B6000756905 /* MapCoordinator.swift in Sources */,
+				D106F7112C098CEE00756905 /* AssetsImage.swift in Sources */,
+				D106F7352C0993F000756905 /* AlertViewController.swift in Sources */,
+				D106F7022C098B6600756905 /* ProfileCoordinator.swift in Sources */,
+				D106F70C2C098CD300756905 /* UIColor.swift in Sources */,
+				D106F70E2C098CDB00756905 /* UIImage.swift in Sources */,
+				D106F6FA2C098B2600756905 /* TabBarController.swift in Sources */,
+				D106F71F2C098F5500756905 /* ViewSpecificController.swift in Sources */,
+				D106F72E2C09933A00756905 /* UIImageView.swift in Sources */,
+				D106F7252C09904400756905 /* UINavigationBar.swift in Sources */,
+				D106F7152C098E8100756905 /* LaunchScreenViewController.swift in Sources */,
+				D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */,
+				D106F7302C09936600756905 /* HighlightButton.swift in Sources */,
+				D106F7052C098B8800756905 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -311,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -397,6 +609,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D106F7082C098C8800756905 /* XCRemoteSwiftPackageReference "Haptica" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/efremidze/Haptica";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.3;
+			};
+		};
+		D106F72A2C09930200756905 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.3;
+			};
+		};
+		D106F7312C0993E700756905 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D106F7092C098C8800756905 /* Haptica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D106F7082C098C8800756905 /* XCRemoteSwiftPackageReference "Haptica" */;
+			productName = Haptica;
+		};
+		D106F72B2C09930200756905 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D106F72A2C09930200756905 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		D106F7322C0993E700756905 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D106F7312C0993E700756905 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D106F6D22C0989E300756905 /* Project object */;
 }
