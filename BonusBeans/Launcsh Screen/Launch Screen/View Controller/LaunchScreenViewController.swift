@@ -17,12 +17,13 @@ final class LaunchScreenViewController: UIViewController, AlertViewController, V
     
     //MARK: - Actions
     @IBAction func buttonAction(_ sender: UIButton) {
-        guard var phoneNumber = view().numberTextField.text?.origin() else {
-            showErrorAlert(message: "Заполните поле!")
+        guard let phoneNumber = view().numberTextField.text?.origin(), phoneNumber.count == 12 else {
+            showErrorAlert(message: "Введите номер телефона")
             return }
-        if !phoneNumber.isEmpty && phoneNumber.count == 12 {
-            phoneNumber.removeFirst(3)
-        }
+        let vc = ConfirmCodeViewController()
+        vc.number = phoneNumber
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.present(vc, animated: true)
     }
 
     // MARK: - Life cycle
@@ -35,17 +36,12 @@ final class LaunchScreenViewController: UIViewController, AlertViewController, V
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: animated)
-    }
+
 }
 
 // MARK: - Other funcs
 extension LaunchScreenViewController {
     private func appearanceSettings() {
-        navigationController?.navigationBar.installBlurEffect()
         view().numberTextField.delegate = self
         view().numberTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }

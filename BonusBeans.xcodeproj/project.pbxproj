@@ -40,6 +40,16 @@
 		D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */; };
 		D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73E2C0998B900756905 /* ConfirmCodeView.swift */; };
 		D106F7412C0998BD00756905 /* ConfirmCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D106F7402C0998BD00756905 /* ConfirmCodeView.xib */; };
+		D10D6B682C099C8D00A44612 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B672C099C8D00A44612 /* IQKeyboardManagerSwift */; };
+		D10D6B6B2C099C9D00A44612 /* KAPinField in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B6A2C099C9D00A44612 /* KAPinField */; };
+		D10D6B6D2C099D7000A44612 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */; };
+		D10D6B6F2C099D9300A44612 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B6E2C099D9300A44612 /* OTPTextField.swift */; };
+		D10D6B742C09A26A00A44612 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B732C09A26A00A44612 /* MainView.swift */; };
+		D10D6B762C09A27100A44612 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B752C09A27100A44612 /* MainViewController.swift */; };
+		D10D6B782C09A27400A44612 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10D6B772C09A27400A44612 /* MainView.xib */; };
+		D10D6B7C2C09A2E200A44612 /* KafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B7B2C09A2E200A44612 /* KafeTableViewCell.swift */; };
+		D10D6B7E2C09A2E600A44612 /* KafeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */; };
+		D10D6B802C09A2F600A44612 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +85,14 @@
 		D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeViewController.swift; sourceTree = "<group>"; };
 		D106F73E2C0998B900756905 /* ConfirmCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeView.swift; sourceTree = "<group>"; };
 		D106F7402C0998BD00756905 /* ConfirmCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmCodeView.xib; sourceTree = "<group>"; };
+		D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		D10D6B6E2C099D9300A44612 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		D10D6B732C09A26A00A44612 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D10D6B752C09A27100A44612 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D10D6B772C09A27400A44612 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		D10D6B7B2C09A2E200A44612 /* KafeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafeTableViewCell.swift; sourceTree = "<group>"; };
+		D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KafeTableViewCell.xib; sourceTree = "<group>"; };
+		D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10D6B6B2C099C9D00A44612 /* KAPinField in Frameworks */,
 				D106F72C2C09930200756905 /* SDWebImage in Frameworks */,
+				D10D6B682C099C8D00A44612 /* IQKeyboardManagerSwift in Frameworks */,
 				D106F7332C0993E700756905 /* SwiftMessages in Frameworks */,
 				D106F70A2C098C8800756905 /* Haptica in Frameworks */,
 			);
@@ -156,6 +176,7 @@
 		D106F6F42C098A8100756905 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D10D6B702C09A25A00A44612 /* Main */,
 				D106F6FB2C098B4900756905 /* MainCoordinator.swift */,
 			);
 			path = Main;
@@ -198,6 +219,9 @@
 			children = (
 				D106F7042C098B8800756905 /* Coordinator.swift */,
 				D106F71C2C098EFA00756905 /* CustomView.swift */,
+				D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */,
+				D10D6B6E2C099D9300A44612 /* OTPTextField.swift */,
+				D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -289,6 +313,50 @@
 			path = "View Controller";
 			sourceTree = "<group>";
 		};
+		D10D6B702C09A25A00A44612 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B722C09A26400A44612 /* View Controller */,
+				D10D6B712C09A25D00A44612 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D10D6B712C09A25D00A44612 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B792C09A2C800A44612 /* Root View */,
+				D10D6B7A2C09A2D000A44612 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D10D6B722C09A26400A44612 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B752C09A27100A44612 /* MainViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D10D6B792C09A2C800A44612 /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B732C09A26A00A44612 /* MainView.swift */,
+				D10D6B772C09A27400A44612 /* MainView.xib */,
+			);
+			path = "Root View";
+			sourceTree = "<group>";
+		};
+		D10D6B7A2C09A2D000A44612 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B7B2C09A2E200A44612 /* KafeTableViewCell.swift */,
+				D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,6 +377,8 @@
 				D106F7092C098C8800756905 /* Haptica */,
 				D106F72B2C09930200756905 /* SDWebImage */,
 				D106F7322C0993E700756905 /* SwiftMessages */,
+				D10D6B672C099C8D00A44612 /* IQKeyboardManagerSwift */,
+				D10D6B6A2C099C9D00A44612 /* KAPinField */,
 			);
 			productName = BonusBeans;
 			productReference = D106F6DA2C0989E300756905 /* BonusBeans.app */;
@@ -342,6 +412,8 @@
 				D106F7082C098C8800756905 /* XCRemoteSwiftPackageReference "Haptica" */,
 				D106F72A2C09930200756905 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				D106F7312C0993E700756905 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+				D10D6B662C099C8D00A44612 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				D10D6B692C099C9D00A44612 /* XCRemoteSwiftPackageReference "KAPinField" */,
 			);
 			productRefGroup = D106F6DB2C0989E300756905 /* Products */;
 			projectDirPath = "";
@@ -357,10 +429,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10D6B7E2C09A2E600A44612 /* KafeTableViewCell.xib in Resources */,
 				D106F7412C0998BD00756905 /* ConfirmCodeView.xib in Resources */,
 				D106F6E72C0989E500756905 /* Assets.xcassets in Resources */,
 				D106F71B2C098EA300756905 /* LaunchScreenView.xib in Resources */,
 				D106F6EA2C0989E500756905 /* Base in Resources */,
+				D10D6B782C09A27400A44612 /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D106F7212C098F6D00756905 /* UIView.swift in Sources */,
+				D10D6B6F2C099D9300A44612 /* OTPTextField.swift in Sources */,
 				D106F7232C098FAB00756905 /* ReusableView.swift in Sources */,
 				D106F6FE2C098B5A00756905 /* ReviewCoordinator.swift in Sources */,
 				D106F7272C09908E00756905 /* UIViewController.swift in Sources */,
@@ -379,12 +454,16 @@
 				D106F6FC2C098B4900756905 /* MainCoordinator.swift in Sources */,
 				D106F7372C09948F00756905 /* String.swift in Sources */,
 				D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */,
+				D10D6B762C09A27100A44612 /* MainViewController.swift in Sources */,
 				D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */,
 				D106F71D2C098EFA00756905 /* CustomView.swift in Sources */,
 				D106F6DE2C0989E300756905 /* AppDelegate.swift in Sources */,
 				D106F7132C098CF300756905 /* AssetsColor.swift in Sources */,
+				D10D6B7C2C09A2E200A44612 /* KafeTableViewCell.swift in Sources */,
 				D106F7002C098B6000756905 /* MapCoordinator.swift in Sources */,
+				D10D6B6D2C099D7000A44612 /* OTPFieldView.swift in Sources */,
 				D106F7112C098CEE00756905 /* AssetsImage.swift in Sources */,
+				D10D6B802C09A2F600A44612 /* CustomTableViewCell.swift in Sources */,
 				D106F7352C0993F000756905 /* AlertViewController.swift in Sources */,
 				D106F7022C098B6600756905 /* ProfileCoordinator.swift in Sources */,
 				D106F70C2C098CD300756905 /* UIColor.swift in Sources */,
@@ -394,6 +473,7 @@
 				D106F72E2C09933A00756905 /* UIImageView.swift in Sources */,
 				D106F7252C09904400756905 /* UINavigationBar.swift in Sources */,
 				D106F7152C098E8100756905 /* LaunchScreenViewController.swift in Sources */,
+				D10D6B742C09A26A00A44612 /* MainView.swift in Sources */,
 				D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */,
 				D106F7302C09936600756905 /* HighlightButton.swift in Sources */,
 				D106F7052C098B8800756905 /* Coordinator.swift in Sources */,
@@ -545,6 +625,7 @@
 				INFOPLIST_FILE = BonusBeans/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -572,6 +653,7 @@
 				INFOPLIST_FILE = BonusBeans/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -635,6 +717,22 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		D10D6B662C099C8D00A44612 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.3;
+			};
+		};
+		D10D6B692C099C9D00A44612 /* XCRemoteSwiftPackageReference "KAPinField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexiscreuzot/KAPinField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -652,6 +750,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D106F7312C0993E700756905 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
 			productName = SwiftMessages;
+		};
+		D10D6B672C099C8D00A44612 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D10D6B662C099C8D00A44612 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		D10D6B6A2C099C9D00A44612 /* KAPinField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D10D6B692C099C9D00A44612 /* XCRemoteSwiftPackageReference "KAPinField" */;
+			productName = KAPinField;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

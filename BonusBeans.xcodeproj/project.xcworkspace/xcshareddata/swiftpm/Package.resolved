@@ -1,5 +1,5 @@
 {
-  "originHash" : "a799e88237ada6b5a667d4ba306b9b5f800e734ba3cca672147b0ab379e68499",
+  "originHash" : "e831ae9a99389e839fb64c733d383a6dfc5ccf92cd0c193986b7cd2b8e94d7a2",
   "pins" : [
     {
       "identity" : "haptica",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "e03932406d2f36f10beefd31717730b2c2fa9014",
         "version" : "3.0.3"
+      }
+    },
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "revision" : "19e111f9246b3407fe0c334dc78fa890c40d8c67",
+        "version" : "7.0.3"
+      }
+    },
+    {
+      "identity" : "kapinfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexiscreuzot/KAPinField",
+      "state" : {
+        "revision" : "16ee8b12acb947b383eb5cff9d40c1e03f11b412",
+        "version" : "5.0.3"
       }
     },
     {
