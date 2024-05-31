@@ -16,4 +16,8 @@ extension UIViewController {
         }
         window.rootViewController = tabBar
     }
+    
+    @objc open func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

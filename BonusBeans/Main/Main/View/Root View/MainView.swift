@@ -11,7 +11,9 @@ final class MainView: CustomView {
     
     //MARK: - Outlets
     @IBOutlet weak var tableView: UITableView! {
-        
+        didSet {
+            tableView.register(UINib(nibName: KafeTableViewCell.defaultReuseIdentifier, bundle: nil), forCellReuseIdentifier: KafeTableViewCell.defaultReuseIdentifier)
+        }
     }
     
     lazy var searchController: UISearchController = {
@@ -31,11 +33,11 @@ final class MainView: CustomView {
         }
         
         searchTextField.textColor = .white
-        searchTextField.tintColor = .appColor(.cl_brand)
+        searchTextField.tintColor = .appColor(.orange)
 
         let glassIconView = searchTextField.leftView as? UIImageView
         glassIconView?.image = glassIconView?.image?.withRenderingMode(.alwaysTemplate)
-        glassIconView?.tintColor = .white
+        glassIconView?.tintColor = .appColor(.black)
         
         return searchController
     }()}

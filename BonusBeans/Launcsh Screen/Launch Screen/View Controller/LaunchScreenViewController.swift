@@ -12,9 +12,6 @@ final class LaunchScreenViewController: UIViewController, AlertViewController, V
     //MARK: - Root View
     typealias RootView = LaunchScreenView
     
-    //MARK: - Attributes
-    override var prefersStatusBarHidden: Bool { return true }
-    
     //MARK: - Actions
     @IBAction func buttonAction(_ sender: UIButton) {
         guard let phoneNumber = view().numberTextField.text?.origin(), phoneNumber.count == 12 else {

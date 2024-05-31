@@ -50,6 +50,8 @@
 		D10D6B7C2C09A2E200A44612 /* KafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B7B2C09A2E200A44612 /* KafeTableViewCell.swift */; };
 		D10D6B7E2C09A2E600A44612 /* KafeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */; };
 		D10D6B802C09A2F600A44612 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */; };
+		D10D6B832C09A45000A44612 /* MainDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B822C09A45000A44612 /* MainDataProvider.swift */; };
+		D10D6B862C09A51F00A44612 /* KafeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B852C09A51F00A44612 /* KafeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +95,8 @@
 		D10D6B7B2C09A2E200A44612 /* KafeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafeTableViewCell.swift; sourceTree = "<group>"; };
 		D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KafeTableViewCell.xib; sourceTree = "<group>"; };
 		D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D10D6B822C09A45000A44612 /* MainDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataProvider.swift; sourceTree = "<group>"; };
+		D10D6B852C09A51F00A44612 /* KafeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 		D106F6F22C098A7100756905 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D10D6B842C09A51800A44612 /* Models */,
 				D106F70F2C098CDF00756905 /* Constants */,
 				D106F7072C098C6700756905 /* Protocols */,
 				D106F7062C098C6100756905 /* Extensions */,
@@ -176,8 +181,8 @@
 		D106F6F42C098A8100756905 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D10D6B702C09A25A00A44612 /* Main */,
 				D106F6FB2C098B4900756905 /* MainCoordinator.swift */,
+				D10D6B702C09A25A00A44612 /* Main */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 		D10D6B702C09A25A00A44612 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D10D6B812C09A44800A44612 /* Data Provider */,
 				D10D6B722C09A26400A44612 /* View Controller */,
 				D10D6B712C09A25D00A44612 /* View */,
 			);
@@ -355,6 +361,22 @@
 				D10D6B7D2C09A2E600A44612 /* KafeTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D10D6B812C09A44800A44612 /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B822C09A45000A44612 /* MainDataProvider.swift */,
+			);
+			path = "Data Provider";
+			sourceTree = "<group>";
+		};
+		D10D6B842C09A51800A44612 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D10D6B852C09A51F00A44612 /* KafeModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +491,7 @@
 				D106F70C2C098CD300756905 /* UIColor.swift in Sources */,
 				D106F70E2C098CDB00756905 /* UIImage.swift in Sources */,
 				D106F6FA2C098B2600756905 /* TabBarController.swift in Sources */,
+				D10D6B862C09A51F00A44612 /* KafeModel.swift in Sources */,
 				D106F71F2C098F5500756905 /* ViewSpecificController.swift in Sources */,
 				D106F72E2C09933A00756905 /* UIImageView.swift in Sources */,
 				D106F7252C09904400756905 /* UINavigationBar.swift in Sources */,
@@ -477,6 +500,7 @@
 				D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */,
 				D106F7302C09936600756905 /* HighlightButton.swift in Sources */,
 				D106F7052C098B8800756905 /* Coordinator.swift in Sources */,
+				D10D6B832C09A45000A44612 /* MainDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,9 +649,11 @@
 				INFOPLIST_FILE = BonusBeans/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,9 +679,11 @@
 				INFOPLIST_FILE = BonusBeans/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
