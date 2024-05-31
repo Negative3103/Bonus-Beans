@@ -38,7 +38,13 @@ final class MainDataProvider: NSObject, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: KafeTableViewCell.defaultReuseIdentifier, for: indexPath) as? KafeTableViewCell else { return UITableViewCell() }
         cell.item = items[indexPath.row]
+        cell.selectionStyle = .none
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let viewController = viewController as? MainViewController else { return }
+        viewController.coordinator?.pushCardInfo(item: items[indexPath.row])
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

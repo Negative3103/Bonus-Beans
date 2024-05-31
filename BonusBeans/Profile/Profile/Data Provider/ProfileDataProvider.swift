@@ -44,4 +44,10 @@ final class ProfileDataProvider: NSObject, UICollectionViewDelegate, UICollectio
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width / 2 - 30, height: 170)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let viewController = viewController as? ProfileViewController else { return }
+        let item = items[indexPath.row]
+        viewController.coordinator?.pushCardInfo(item: KafeModel(name: item.name, address: item.address, rate: 0, points: 0))
+    }
 }

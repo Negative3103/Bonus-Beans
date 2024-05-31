@@ -23,4 +23,12 @@ final class ReviewCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: false)
     }
     
+    internal func pushCardInfo(item: KafeModel) {
+        let vc = CardInfoViewController()
+        vc.coordinator = MainCoordinator(navigationController: navigationController)
+        vc.kafe = item
+        vc.hidesBottomBarWhenPushed = true
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
 }

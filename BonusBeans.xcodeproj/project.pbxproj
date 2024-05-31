@@ -40,6 +40,15 @@
 		D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */; };
 		D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106F73E2C0998B900756905 /* ConfirmCodeView.swift */; };
 		D106F7412C0998BD00756905 /* ConfirmCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D106F7402C0998BD00756905 /* ConfirmCodeView.xib */; };
+		D107261B2C09DC4F00B6F1AA /* CategoriesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107261A2C09DC4F00B6F1AA /* CategoriesDataProvider.swift */; };
+		D107261D2C09DC9F00B6F1AA /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107261C2C09DC9F00B6F1AA /* CategoriesModel.swift */; };
+		D10726202C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107261F2C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift */; };
+		D10726222C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10726212C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib */; };
+		D10726252C09DEAD00B6F1AA /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726242C09DEAD00B6F1AA /* CardInfoView.swift */; };
+		D10726272C09DEB100B6F1AA /* CardInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10726262C09DEB100B6F1AA /* CardInfoView.xib */; };
+		D10726292C09DEF000B6F1AA /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726282C09DEF000B6F1AA /* CardInfoViewController.swift */; };
+		D107262B2C09E01700B6F1AA /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107262A2C09E01700B6F1AA /* UIFont.swift */; };
+		D107262D2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107262C2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift */; };
 		D10D6B682C099C8D00A44612 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B672C099C8D00A44612 /* IQKeyboardManagerSwift */; };
 		D10D6B6B2C099C9D00A44612 /* KAPinField in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B6A2C099C9D00A44612 /* KAPinField */; };
 		D10D6B6D2C099D7000A44612 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */; };
@@ -103,6 +112,15 @@
 		D106F73C2C0998B400756905 /* ConfirmCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeViewController.swift; sourceTree = "<group>"; };
 		D106F73E2C0998B900756905 /* ConfirmCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeView.swift; sourceTree = "<group>"; };
 		D106F7402C0998BD00756905 /* ConfirmCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmCodeView.xib; sourceTree = "<group>"; };
+		D107261A2C09DC4F00B6F1AA /* CategoriesDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDataProvider.swift; sourceTree = "<group>"; };
+		D107261C2C09DC9F00B6F1AA /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		D107261F2C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D10726212C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		D10726242C09DEAD00B6F1AA /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
+		D10726262C09DEB100B6F1AA /* CardInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardInfoView.xib; sourceTree = "<group>"; };
+		D10726282C09DEF000B6F1AA /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		D107262A2C09E01700B6F1AA /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		D107262C2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
 		D10D6B6E2C099D9300A44612 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		D10D6B732C09A26A00A44612 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -215,6 +233,7 @@
 			children = (
 				D106F6FB2C098B4900756905 /* MainCoordinator.swift */,
 				D10D6B702C09A25A00A44612 /* Main */,
+				D10726162C09DBC300B6F1AA /* Card Info */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -263,6 +282,7 @@
 				D1C044802C09BC5A00B30376 /* CustomCollectionViewCell.swift */,
 				D10D6B6E2C099D9300A44612 /* OTPTextField.swift */,
 				D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */,
+				D107262C2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -280,6 +300,7 @@
 				D13E55A82C09D7040052363D /* UITextField.swift */,
 				D106F72F2C09936600756905 /* HighlightButton.swift */,
 				D106F7362C09948F00756905 /* String.swift */,
+				D107262A2C09E01700B6F1AA /* UIFont.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -355,6 +376,59 @@
 			path = "View Controller";
 			sourceTree = "<group>";
 		};
+		D10726162C09DBC300B6F1AA /* Card Info */ = {
+			isa = PBXGroup;
+			children = (
+				D10726192C09DC2C00B6F1AA /* Data Provider */,
+				D10726182C09DBD200B6F1AA /* View Controller */,
+				D10726172C09DBCD00B6F1AA /* View */,
+			);
+			path = "Card Info";
+			sourceTree = "<group>";
+		};
+		D10726172C09DBCD00B6F1AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10726232C09DEA500B6F1AA /* Root View */,
+				D107261E2C09DD5000B6F1AA /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D10726182C09DBD200B6F1AA /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D10726282C09DEF000B6F1AA /* CardInfoViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D10726192C09DC2C00B6F1AA /* Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				D107261A2C09DC4F00B6F1AA /* CategoriesDataProvider.swift */,
+			);
+			path = "Data Provider";
+			sourceTree = "<group>";
+		};
+		D107261E2C09DD5000B6F1AA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D107261F2C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift */,
+				D10726212C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D10726232C09DEA500B6F1AA /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				D10726242C09DEAD00B6F1AA /* CardInfoView.swift */,
+				D10726262C09DEB100B6F1AA /* CardInfoView.xib */,
+			);
+			path = "Root View";
+			sourceTree = "<group>";
+		};
 		D10D6B702C09A25A00A44612 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +487,7 @@
 			children = (
 				D10D6B852C09A51F00A44612 /* KafeModel.swift */,
 				D1C044822C09BF5D00B30376 /* ReviewModel.swift */,
+				D107261C2C09DC9F00B6F1AA /* CategoriesModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -620,6 +695,8 @@
 				D106F6EA2C0989E500756905 /* Base in Resources */,
 				D13E55A72C09D32A0052363D /* SubscribeView.xib in Resources */,
 				D1C0447F2C09BC3800B30376 /* ReviewCollectionViewCell.xib in Resources */,
+				D10726222C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib in Resources */,
+				D10726272C09DEB100B6F1AA /* CardInfoView.xib in Resources */,
 				D10D6B782C09A27400A44612 /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,6 +712,7 @@
 				D10D6B6F2C099D9300A44612 /* OTPTextField.swift in Sources */,
 				D106F7232C098FAB00756905 /* ReusableView.swift in Sources */,
 				D106F6FE2C098B5A00756905 /* ReviewCoordinator.swift in Sources */,
+				D10726252C09DEAD00B6F1AA /* CardInfoView.swift in Sources */,
 				D1C0447D2C09BC3500B30376 /* ReviewCollectionViewCell.swift in Sources */,
 				D13E55A32C09D3190052363D /* SubscribeViewController.swift in Sources */,
 				D106F7272C09908E00756905 /* UIViewController.swift in Sources */,
@@ -643,8 +721,10 @@
 				D106F7372C09948F00756905 /* String.swift in Sources */,
 				D106F73D2C0998B400756905 /* ConfirmCodeViewController.swift in Sources */,
 				D10D6B762C09A27100A44612 /* MainViewController.swift in Sources */,
+				D107261B2C09DC4F00B6F1AA /* CategoriesDataProvider.swift in Sources */,
 				D106F73F2C0998B900756905 /* ConfirmCodeView.swift in Sources */,
 				D106F71D2C098EFA00756905 /* CustomView.swift in Sources */,
+				D10726202C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift in Sources */,
 				D1C0448E2C09CB1400B30376 /* ProfileView.swift in Sources */,
 				D106F6DE2C0989E300756905 /* AppDelegate.swift in Sources */,
 				D106F7132C098CF300756905 /* AssetsColor.swift in Sources */,
@@ -669,11 +749,15 @@
 				D106F71F2C098F5500756905 /* ViewSpecificController.swift in Sources */,
 				D106F72E2C09933A00756905 /* UIImageView.swift in Sources */,
 				D106F7252C09904400756905 /* UINavigationBar.swift in Sources */,
+				D107262D2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift in Sources */,
+				D10726292C09DEF000B6F1AA /* CardInfoViewController.swift in Sources */,
+				D107261D2C09DC9F00B6F1AA /* CategoriesModel.swift in Sources */,
 				D106F7152C098E8100756905 /* LaunchScreenViewController.swift in Sources */,
 				D10D6B742C09A26A00A44612 /* MainView.swift in Sources */,
 				D1C0448A2C09CB0900B30376 /* ProfileDataProvider.swift in Sources */,
 				D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */,
 				D106F7302C09936600756905 /* HighlightButton.swift in Sources */,
+				D107262B2C09E01700B6F1AA /* UIFont.swift in Sources */,
 				D1C0446C2C09B90B00B30376 /* ReviewView.swift in Sources */,
 				D106F7052C098B8800756905 /* Coordinator.swift in Sources */,
 				D10D6B832C09A45000A44612 /* MainDataProvider.swift in Sources */,

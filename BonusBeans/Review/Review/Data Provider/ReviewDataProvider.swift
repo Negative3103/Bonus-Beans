@@ -46,6 +46,11 @@ final class ReviewDataProvider: NSObject, UICollectionViewDelegate, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let viewController = viewController as? ReviewViewController else { return }
+        let item = items[indexPath.row]
+        guard let vc = viewController as? ReviewViewController else {
+            guard let vc = viewController as? CardInfoViewController else { return }
+            vc.coordinator?.pushCardInfo(item: KafeModel(name: item.name, address: item.address, rate: 0, points: 0))
+            return }
+        vc.coordinator?.pushCardInfo(item: KafeModel(name: item.name, address: item.address, rate: 0, points: 0))
     }
 }

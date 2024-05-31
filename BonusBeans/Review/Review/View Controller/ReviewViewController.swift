@@ -20,11 +20,6 @@ final class ReviewViewController: UIViewController, AlertViewController, ViewSpe
     private let items = ReviewModel.items
     
     //MARK: - Lifecycles
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: true)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         appearanceSettings()
@@ -34,6 +29,10 @@ final class ReviewViewController: UIViewController, AlertViewController, ViewSpe
 //MARK: - Other funcs
 extension ReviewViewController {
     private func appearanceSettings() {
+        navigationItem.title = "Обзор"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.clear()
+        navigationController?.navigationBar.installBlurEffect()
         dataProvider.viewController = self
         dataProvider.collectionView = view().collectionView
         dataProvider.items = items

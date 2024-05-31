@@ -42,10 +42,12 @@ final class MainViewController: UIViewController, AlertViewController, ViewSpeci
 extension MainViewController {
     private func appearanceSettings() {
         navigationItem.title = "Поиск"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.clear()
+        navigationController?.navigationBar.installBlurEffect()
         dataProvider.viewController = self
         dataProvider.tableView = view().tableView
         dataProvider.items = items
-        navigationController?.navigationBar.installBlurEffect()
         setupSearchBar()
         setupClearAction()
         setupGesture()

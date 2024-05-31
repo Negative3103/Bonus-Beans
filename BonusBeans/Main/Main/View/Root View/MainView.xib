@@ -18,8 +18,8 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8B7-9R-4Lw">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8B7-9R-4Lw">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
             </subviews>
@@ -27,8 +27,8 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="8B7-9R-4Lw" firstAttribute="leading" secondItem="PCM-IA-Gpg" secondAttribute="leading" id="74u-iz-QlF"/>
-                <constraint firstAttribute="bottom" secondItem="8B7-9R-4Lw" secondAttribute="bottom" id="Aqf-sc-lyc"/>
-                <constraint firstItem="8B7-9R-4Lw" firstAttribute="top" secondItem="PCM-IA-Gpg" secondAttribute="top" id="q0j-KG-dKD"/>
+                <constraint firstItem="8B7-9R-4Lw" firstAttribute="top" secondItem="ErL-u3-hjw" secondAttribute="top" id="8AI-3d-wgk"/>
+                <constraint firstItem="ErL-u3-hjw" firstAttribute="bottom" secondItem="8B7-9R-4Lw" secondAttribute="bottom" id="a9e-tw-Wgq"/>
                 <constraint firstItem="8B7-9R-4Lw" firstAttribute="trailing" secondItem="ErL-u3-hjw" secondAttribute="trailing" id="tnh-cR-lVD"/>
             </constraints>
             <connections>

@@ -30,6 +30,11 @@ final class ProfileViewController: UIViewController, AlertViewController, ViewSp
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         appearanceSettings()
@@ -40,6 +45,9 @@ final class ProfileViewController: UIViewController, AlertViewController, ViewSp
 //MARK: - Other funcs
 extension ProfileViewController {
     private func appearanceSettings() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.clear()
+        navigationController?.navigationBar.installBlurEffect()
         dataProvider.viewController = self
         dataProvider.collectionView = view().collectionView
         dataProvider.items = items
