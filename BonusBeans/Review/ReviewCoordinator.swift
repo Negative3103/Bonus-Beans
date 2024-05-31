@@ -19,7 +19,6 @@ final class ReviewCoordinator: Coordinator {
     func start() {
         let vc = ReviewViewController()
         vc.tabBarItem = UITabBarItem(title: "Обзор", image: UIImage.appImage(.review), tag: 1)
-        vc.tabBarItem.setImageOnly()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }

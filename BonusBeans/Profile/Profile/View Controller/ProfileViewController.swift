@@ -21,7 +21,7 @@ final class ProfileViewController: UIViewController, AlertViewController, ViewSp
     
     //MARK: - Actions
     @IBAction func subscribeActions(_ sender: UIButton) {
-        
+        coordinator?.pushSubscriptionViewController(viewController: self)
     }
     
     //MARK: - Lifecycles

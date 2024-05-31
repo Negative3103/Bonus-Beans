@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftMessages
 
 final class ProfileCoordinator: Coordinator {
 
@@ -19,9 +20,17 @@ final class ProfileCoordinator: Coordinator {
     func start() {
         let vc = ProfileViewController()
         vc.tabBarItem = UITabBarItem(title: "Кабинет", image: UIImage.appImage(.profile), tag: 3)
-        vc.tabBarItem.setImageOnly()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
+    }
+    
+    internal func pushSubscriptionViewController(viewController: UIViewController) {
+        let vc = SubscribeViewController()
+        vc.coordinator = self
+        let segue = SwiftMessagesSegue(identifier: nil, source: viewController, destination: vc)
+        segue.configure(layout: .bottomCard)
+        segue.messageView.backgroundHeight = 340
+        segue.perform()
     }
     
 }

@@ -65,7 +65,7 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cyc-eX-7FA">
                                     <rect key="frame" x="20" y="314.33333333333331" width="353" height="141.33333333333331"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оформите подписку всего за 300 рублей в месяц и получайте бесплатный кофе в любом кафе на карте абсолютно бесплатно" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufs-od-g1L">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оформите подписку всего за 24.99$ в месяц и получайте бесплатный кофе в любом кафе на карте абсолютно бесплатно" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufs-od-g1L">
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="65.666666666666671"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
                                             <color key="textColor" name="black70"/>

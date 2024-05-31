@@ -19,7 +19,6 @@ final class MainCoordinator: Coordinator {
     func start() {
         let vc = MainViewController()
         vc.tabBarItem = UITabBarItem(title: "Поиск", image: UIImage.appImage(.search), tag: 0)
-        vc.tabBarItem.setImageOnly()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
     }

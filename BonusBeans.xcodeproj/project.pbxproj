@@ -52,6 +52,10 @@
 		D10D6B802C09A2F600A44612 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */; };
 		D10D6B832C09A45000A44612 /* MainDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B822C09A45000A44612 /* MainDataProvider.swift */; };
 		D10D6B862C09A51F00A44612 /* KafeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B852C09A51F00A44612 /* KafeModel.swift */; };
+		D13E55A32C09D3190052363D /* SubscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E55A22C09D3190052363D /* SubscribeViewController.swift */; };
+		D13E55A52C09D31D0052363D /* SubscribeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E55A42C09D31D0052363D /* SubscribeView.swift */; };
+		D13E55A72C09D32A0052363D /* SubscribeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13E55A62C09D32A0052363D /* SubscribeView.xib */; };
+		D13E55A92C09D7040052363D /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E55A82C09D7040052363D /* UITextField.swift */; };
 		D1C044682C09B90100B30376 /* ReviewDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C044672C09B90100B30376 /* ReviewDataProvider.swift */; };
 		D1C0446A2C09B90800B30376 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C044692C09B90800B30376 /* ReviewViewController.swift */; };
 		D1C0446C2C09B90B00B30376 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0446B2C09B90B00B30376 /* ReviewView.swift */; };
@@ -109,6 +113,10 @@
 		D10D6B7F2C09A2F600A44612 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D10D6B822C09A45000A44612 /* MainDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataProvider.swift; sourceTree = "<group>"; };
 		D10D6B852C09A51F00A44612 /* KafeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KafeModel.swift; sourceTree = "<group>"; };
+		D13E55A22C09D3190052363D /* SubscribeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewController.swift; sourceTree = "<group>"; };
+		D13E55A42C09D31D0052363D /* SubscribeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeView.swift; sourceTree = "<group>"; };
+		D13E55A62C09D32A0052363D /* SubscribeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscribeView.xib; sourceTree = "<group>"; };
+		D13E55A82C09D7040052363D /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		D1C044672C09B90100B30376 /* ReviewDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDataProvider.swift; sourceTree = "<group>"; };
 		D1C044692C09B90800B30376 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		D1C0446B2C09B90B00B30376 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
@@ -233,6 +241,7 @@
 			children = (
 				D106F7012C098B6600756905 /* ProfileCoordinator.swift */,
 				D1C044842C09CAE100B30376 /* Profile */,
+				D13E559F2C09D2FD0052363D /* Subscribe */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -268,6 +277,7 @@
 				D106F7262C09908E00756905 /* UIViewController.swift */,
 				D106F7282C0992E400756905 /* UITabBarItem.swift */,
 				D106F72D2C09933A00756905 /* UIImageView.swift */,
+				D13E55A82C09D7040052363D /* UITextField.swift */,
 				D106F72F2C09936600756905 /* HighlightButton.swift */,
 				D106F7362C09948F00756905 /* String.swift */,
 			);
@@ -405,6 +415,32 @@
 				D1C044822C09BF5D00B30376 /* ReviewModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D13E559F2C09D2FD0052363D /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				D13E55A12C09D30A0052363D /* View Controller */,
+				D13E55A02C09D3070052363D /* View */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		D13E55A02C09D3070052363D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D13E55A42C09D31D0052363D /* SubscribeView.swift */,
+				D13E55A62C09D32A0052363D /* SubscribeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D13E55A12C09D30A0052363D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D13E55A22C09D3190052363D /* SubscribeViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		D1C044612C09B8A000B30376 /* Review */ = {
@@ -582,6 +618,7 @@
 				D1C0446E2C09B91800B30376 /* ReviewView.xib in Resources */,
 				D1C044902C09CB1E00B30376 /* ProfileView.xib in Resources */,
 				D106F6EA2C0989E500756905 /* Base in Resources */,
+				D13E55A72C09D32A0052363D /* SubscribeView.xib in Resources */,
 				D1C0447F2C09BC3800B30376 /* ReviewCollectionViewCell.xib in Resources */,
 				D10D6B782C09A27400A44612 /* MainView.xib in Resources */,
 			);
@@ -599,6 +636,7 @@
 				D106F7232C098FAB00756905 /* ReusableView.swift in Sources */,
 				D106F6FE2C098B5A00756905 /* ReviewCoordinator.swift in Sources */,
 				D1C0447D2C09BC3500B30376 /* ReviewCollectionViewCell.swift in Sources */,
+				D13E55A32C09D3190052363D /* SubscribeViewController.swift in Sources */,
 				D106F7272C09908E00756905 /* UIViewController.swift in Sources */,
 				D106F7192C098E9F00756905 /* LaunchScreenView.swift in Sources */,
 				D106F6FC2C098B4900756905 /* MainCoordinator.swift in Sources */,
@@ -618,10 +656,12 @@
 				D10D6B6D2C099D7000A44612 /* OTPFieldView.swift in Sources */,
 				D106F7112C098CEE00756905 /* AssetsImage.swift in Sources */,
 				D10D6B802C09A2F600A44612 /* CustomTableViewCell.swift in Sources */,
+				D13E55A92C09D7040052363D /* UITextField.swift in Sources */,
 				D1C044682C09B90100B30376 /* ReviewDataProvider.swift in Sources */,
 				D106F7352C0993F000756905 /* AlertViewController.swift in Sources */,
 				D106F7022C098B6600756905 /* ProfileCoordinator.swift in Sources */,
 				D106F70C2C098CD300756905 /* UIColor.swift in Sources */,
+				D13E55A52C09D31D0052363D /* SubscribeView.swift in Sources */,
 				D106F70E2C098CDB00756905 /* UIImage.swift in Sources */,
 				D106F6FA2C098B2600756905 /* TabBarController.swift in Sources */,
 				D10D6B862C09A51F00A44612 /* KafeModel.swift in Sources */,
