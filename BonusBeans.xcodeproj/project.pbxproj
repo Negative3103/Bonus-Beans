@@ -49,6 +49,12 @@
 		D10726292C09DEF000B6F1AA /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726282C09DEF000B6F1AA /* CardInfoViewController.swift */; };
 		D107262B2C09E01700B6F1AA /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107262A2C09E01700B6F1AA /* UIFont.swift */; };
 		D107262D2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107262C2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift */; };
+		D10726312C0A41B600B6F1AA /* CommentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726302C0A41B600B6F1AA /* CommentsCollectionViewCell.swift */; };
+		D10726332C0A41BA00B6F1AA /* CommentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10726322C0A41BA00B6F1AA /* CommentsCollectionViewCell.xib */; };
+		D10726352C0A437A00B6F1AA /* CommentsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726342C0A437900B6F1AA /* CommentsDataProvider.swift */; };
+		D107263A2C0A47E300B6F1AA /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10726392C0A47E300B6F1AA /* QRCodeView.swift */; };
+		D107263C2C0A47E600B6F1AA /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D107263B2C0A47E600B6F1AA /* QRCodeView.xib */; };
+		D107263F2C0A47F000B6F1AA /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D107263E2C0A47F000B6F1AA /* QRCodeViewController.swift */; };
 		D10D6B682C099C8D00A44612 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B672C099C8D00A44612 /* IQKeyboardManagerSwift */; };
 		D10D6B6B2C099C9D00A44612 /* KAPinField in Frameworks */ = {isa = PBXBuildFile; productRef = D10D6B6A2C099C9D00A44612 /* KAPinField */; };
 		D10D6B6D2C099D7000A44612 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */; };
@@ -121,6 +127,12 @@
 		D10726282C09DEF000B6F1AA /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
 		D107262A2C09E01700B6F1AA /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		D107262C2C09ECAD00B6F1AA /* CenterAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		D10726302C0A41B600B6F1AA /* CommentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D10726322C0A41BA00B6F1AA /* CommentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D10726342C0A437900B6F1AA /* CommentsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsDataProvider.swift; sourceTree = "<group>"; };
+		D10726392C0A47E300B6F1AA /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		D107263B2C0A47E600B6F1AA /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
+		D107263E2C0A47F000B6F1AA /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		D10D6B6C2C099D7000A44612 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
 		D10D6B6E2C099D9300A44612 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		D10D6B732C09A26A00A44612 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -251,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				D106F6FF2C098B6000756905 /* MapCoordinator.swift */,
+				D10726362C0A47CE00B6F1AA /* Map */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -407,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				D107261A2C09DC4F00B6F1AA /* CategoriesDataProvider.swift */,
+				D10726342C0A437900B6F1AA /* CommentsDataProvider.swift */,
 			);
 			path = "Data Provider";
 			sourceTree = "<group>";
@@ -414,8 +428,8 @@
 		D107261E2C09DD5000B6F1AA /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				D107261F2C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift */,
-				D10726212C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib */,
+				D107262F2C0A41A700B6F1AA /* Comments */,
+				D107262E2C0A419A00B6F1AA /* Cateories */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -427,6 +441,58 @@
 				D10726262C09DEB100B6F1AA /* CardInfoView.xib */,
 			);
 			path = "Root View";
+			sourceTree = "<group>";
+		};
+		D107262E2C0A419A00B6F1AA /* Cateories */ = {
+			isa = PBXGroup;
+			children = (
+				D107261F2C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift */,
+				D10726212C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib */,
+			);
+			name = Cateories;
+			sourceTree = "<group>";
+		};
+		D107262F2C0A41A700B6F1AA /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				D10726302C0A41B600B6F1AA /* CommentsCollectionViewCell.swift */,
+				D10726322C0A41BA00B6F1AA /* CommentsCollectionViewCell.xib */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		D10726362C0A47CE00B6F1AA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D107263D2C0A47E900B6F1AA /* View Controller */,
+				D10726372C0A47D600B6F1AA /* View */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D10726372C0A47D600B6F1AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10726382C0A47D900B6F1AA /* Root View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D10726382C0A47D900B6F1AA /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				D10726392C0A47E300B6F1AA /* QRCodeView.swift */,
+				D107263B2C0A47E600B6F1AA /* QRCodeView.xib */,
+			);
+			path = "Root View";
+			sourceTree = "<group>";
+		};
+		D107263D2C0A47E900B6F1AA /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D107263E2C0A47F000B6F1AA /* QRCodeViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		D10D6B702C09A25A00A44612 /* Main */ = {
@@ -693,11 +759,13 @@
 				D1C0446E2C09B91800B30376 /* ReviewView.xib in Resources */,
 				D1C044902C09CB1E00B30376 /* ProfileView.xib in Resources */,
 				D106F6EA2C0989E500756905 /* Base in Resources */,
+				D10726332C0A41BA00B6F1AA /* CommentsCollectionViewCell.xib in Resources */,
 				D13E55A72C09D32A0052363D /* SubscribeView.xib in Resources */,
 				D1C0447F2C09BC3800B30376 /* ReviewCollectionViewCell.xib in Resources */,
 				D10726222C09DD5C00B6F1AA /* CategoriesCollectionViewCell.xib in Resources */,
 				D10726272C09DEB100B6F1AA /* CardInfoView.xib in Resources */,
 				D10D6B782C09A27400A44612 /* MainView.xib in Resources */,
+				D107263C2C0A47E600B6F1AA /* QRCodeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +783,8 @@
 				D10726252C09DEAD00B6F1AA /* CardInfoView.swift in Sources */,
 				D1C0447D2C09BC3500B30376 /* ReviewCollectionViewCell.swift in Sources */,
 				D13E55A32C09D3190052363D /* SubscribeViewController.swift in Sources */,
+				D107263F2C0A47F000B6F1AA /* QRCodeViewController.swift in Sources */,
+				D10726352C0A437A00B6F1AA /* CommentsDataProvider.swift in Sources */,
 				D106F7272C09908E00756905 /* UIViewController.swift in Sources */,
 				D106F7192C098E9F00756905 /* LaunchScreenView.swift in Sources */,
 				D106F6FC2C098B4900756905 /* MainCoordinator.swift in Sources */,
@@ -726,6 +796,7 @@
 				D106F71D2C098EFA00756905 /* CustomView.swift in Sources */,
 				D10726202C09DD5500B6F1AA /* CategoriesCollectionViewCell.swift in Sources */,
 				D1C0448E2C09CB1400B30376 /* ProfileView.swift in Sources */,
+				D10726312C0A41B600B6F1AA /* CommentsCollectionViewCell.swift in Sources */,
 				D106F6DE2C0989E300756905 /* AppDelegate.swift in Sources */,
 				D106F7132C098CF300756905 /* AssetsColor.swift in Sources */,
 				D1C044832C09BF5D00B30376 /* ReviewModel.swift in Sources */,
@@ -755,6 +826,7 @@
 				D106F7152C098E8100756905 /* LaunchScreenViewController.swift in Sources */,
 				D10D6B742C09A26A00A44612 /* MainView.swift in Sources */,
 				D1C0448A2C09CB0900B30376 /* ProfileDataProvider.swift in Sources */,
+				D107263A2C0A47E300B6F1AA /* QRCodeView.swift in Sources */,
 				D106F7292C0992E400756905 /* UITabBarItem.swift in Sources */,
 				D106F7302C09936600756905 /* HighlightButton.swift in Sources */,
 				D107262B2C09E01700B6F1AA /* UIFont.swift in Sources */,

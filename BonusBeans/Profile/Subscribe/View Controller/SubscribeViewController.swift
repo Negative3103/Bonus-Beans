@@ -47,6 +47,7 @@ extension SubscribeViewController {
             return
         }
         showSuccessAlert(message: "Вы успешно приобрели подписку")
+        UserDefaults.standard.setValue(true, forKey: "hasSubs")
         dismiss(animated: true)
     }
 }

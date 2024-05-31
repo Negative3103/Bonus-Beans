@@ -18,38 +18,37 @@ final class CardInfoViewController: UIViewController, AlertViewController, ViewS
     //MARK: - Attributes
     private let dataProvider = CategoriesDataProvider()
     private let reviewDataProvider = ReviewDataProvider()
+    private let commentsDataProvider = CommentsDataProvider()
+    
     private let items = CategoriesModel.items
     private let review = ReviewModel.items
     internal var kafe: KafeModel?
     internal var selectedCategory: CategoriesModel? {
         didSet {
-            UIView.animate(withDuration: 0.3) { [weak self] in
-                guard let `self` = self else { return }
-                guard let selectedCategory = selectedCategory, let id = selectedCategory.id else { return }
-                view().reviewView.alpha = 0
-                view().reviewView.isHidden = true
-                view().menuView.alpha = 0
-                view().menuView.isHidden = true
-                switch id {
-                case 0:
-                    view().reviewView.isHidden = false
-                    view().reviewView.alpha = 1
-                case 1:
-                    view().menuView.isHidden = false
-                    view().menuView.alpha = 1
-                case 2:
-                    break
-                default:
-                    break
-                }
+            guard let selectedCategory = selectedCategory,
+                  let id = selectedCategory.id
+            else { return }
+            view().reviewView.alpha = 0
+            view().reviewView.isHidden = true
+            view().menuView.alpha = 0
+            view().menuView.isHidden = true
+            view().commentsCollectionView.alpha = 0
+            view().commentsCollectionView.isHidden = true
+            switch id {
+            case 0:
+                view().reviewView.isHidden = false
+                view().reviewView.alpha = 1
+            case 1:
+                view().menuView.isHidden = false
+                view().menuView.alpha = 1
+            case 2:
+                view().commentsCollectionView.isHidden = false
+                view().commentsCollectionView.alpha = 1
+            default:
+                break
             }
             view().layoutIfNeeded()
         }
-    }
-    
-    //MARK: - Actions
-    @IBAction func buttonAction(_ sender: UIButton) {
-        
     }
     
     //MARK: - Lifecycles
@@ -82,5 +81,7 @@ extension CardInfoViewController {
         reviewDataProvider.viewController = self
         reviewDataProvider.collectionView = view().collectionView
         reviewDataProvider.items = review
+        commentsDataProvider.viewController = self
+        commentsDataProvider.collectionView = view().commentsCollectionView
     }
 }

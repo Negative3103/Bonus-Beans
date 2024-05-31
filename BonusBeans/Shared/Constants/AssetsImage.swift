@@ -13,4 +13,5 @@ enum AssetsImage: String {
     case review
     case map
     case profile
+    case qrcode
 }

@@ -17,7 +17,10 @@ final class MapCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let vc = QRCodeViewController()
+        vc.tabBarItem = UITabBarItem(title: "QR-код", image: UIImage(systemName: "qrcode"), tag: 2)
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: false)
     }
     
 }

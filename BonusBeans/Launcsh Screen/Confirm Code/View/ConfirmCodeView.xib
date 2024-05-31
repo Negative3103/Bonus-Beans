@@ -116,10 +116,10 @@
                 <constraint firstItem="8Vv-eH-AmR" firstAttribute="top" secondItem="Jxb-Td-Io9" secondAttribute="top" id="7Tp-g0-6cR"/>
                 <constraint firstItem="Ec8-oO-NDm" firstAttribute="top" secondItem="8Vv-eH-AmR" secondAttribute="bottom" constant="10" id="Fb5-hk-2pR"/>
                 <constraint firstItem="eru-RB-Pe9" firstAttribute="top" secondItem="Ec8-oO-NDm" secondAttribute="bottom" constant="10" id="Fj6-BC-CU8"/>
-                <constraint firstItem="Jxb-Td-Io9" firstAttribute="trailing" secondItem="Ec8-oO-NDm" secondAttribute="trailing" constant="20" id="G9b-8O-sXu"/>
+                <constraint firstAttribute="trailing" secondItem="Ec8-oO-NDm" secondAttribute="trailing" constant="20" id="G9b-8O-sXu"/>
+                <constraint firstItem="Ec8-oO-NDm" firstAttribute="leading" secondItem="hYN-6m-rte" secondAttribute="leading" constant="20" id="GfJ-KU-6R9"/>
                 <constraint firstItem="khJ-ic-ZaI" firstAttribute="leading" secondItem="Jxb-Td-Io9" secondAttribute="leading" constant="20" id="JdT-Bw-5De"/>
                 <constraint firstItem="8Vv-eH-AmR" firstAttribute="leading" secondItem="Jxb-Td-Io9" secondAttribute="leading" constant="20" id="Pez-9e-Nbk"/>
-                <constraint firstItem="Ec8-oO-NDm" firstAttribute="leading" secondItem="Jxb-Td-Io9" secondAttribute="leading" constant="20" id="Ukc-Ct-nxD"/>
                 <constraint firstItem="Jxb-Td-Io9" firstAttribute="trailing" secondItem="khJ-ic-ZaI" secondAttribute="trailing" constant="20" id="dkG-MF-WUX"/>
                 <constraint firstItem="khJ-ic-ZaI" firstAttribute="top" secondItem="eru-RB-Pe9" secondAttribute="bottom" constant="10" id="eQB-Kl-aDX"/>
                 <constraint firstItem="Jxb-Td-Io9" firstAttribute="trailing" secondItem="8Vv-eH-AmR" secondAttribute="trailing" constant="20" id="wfS-Gb-xgA"/>
